@@ -1,0 +1,19 @@
+{
+    "name": "usuario/taller2-main",
+    "autoload": {
+        "psr-4": {
+        "Taller2\\Controller\\": "src/Controller/",
+        "Taller2\\Model\\": "src/Model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luz Elena Vargas Herrera",
+            "email": "luz.3801810370@ucaldas.edu.co"
+        }
+    ],
+    "require": {
+        "symfony/mailer": "^7.2",
+        "dompdf/dompdf": "^3.1"
+    }
+}
